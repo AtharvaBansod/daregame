@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IP, User, and Location</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('myBg.jpg');
+            background-color: rgba(255, 255, 255, 0.7);
+            /* Set the color and opacity (0.5 = 50% opacity) */
+            background-blend-mode: overlay;
+
+        }
+
+        h1 {
+            background-image: url('dare.png');
+            background-color: rgba(255, 255, 255, 0.2);
+            /* Set the color and opacity (0.5 = 50% opacity) */
+            background-blend-mode: overlay;
+            background-repeat: no-repeat;
+            /* background-position: fit; */
+            background-size: cover;
+            width: 100%;
+            padding: 20px;
+            font-size: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: rgb(170, 14, 14);
+            padding-top: 250px;
+            padding-bottom: 50px;
+        }
+
+        #dareForm {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            font-size: 50px;
+            padding-top: 200px;
+        }
+
+        input {
+            border: 2px solid purple;
+            outline: none;
+            border-radius: 50px;
+            width: 600px;
+            height: 100px;
+            font-size: 50px;
+            padding-left: 20px;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            background: purple;
+            color: white;
+            border-radius: 50px;
+            width: 500px;
+            height: 100px;
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        #linkDisplay {
+            font-size: 40px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* padding: 30px; */
+
+            color: blue;
+        }
+
+        #lnk {
+            padding-top: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: rgb(238, 14, 51);
+            font-weight: bold;
+            font-size: 50px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Your Dare</h1>
+    <form id="dareForm">
+        <label for="dare">Dance on any Song you like.</label>
+        <!-- <input type="text" id="dare" name="dare" value=""> -->
+
+        <!-- <label for="customToken">Enter a Custom Token:</label>
+        <input type="text" id="customToken" name="customToken"> -->
+
+        <!-- <button type="button" onclick="generateLink()">Generate Link</button> -->
+    </form>
+<!-- 
+    <p id="lnk">Your Dare Link Below:
+    <p>
+    <p id="linkDisplay"> </p>
+ -->
+
+
+
+
+</body>
+
+</html>
